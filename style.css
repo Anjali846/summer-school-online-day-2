@@ -1,0 +1,38 @@
+/* External CSS File */
+
+/* ID selector */
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Group selector */
+h1, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+/* Class selector */
+.bio {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Contact section styling using descendant selector */
+.contact p {
+  font-size: 0.95rem;
+  padding-left: 15px;
+}
+
+/* Add hover effect */
+a[href]:hover {
+  font-weight: bold;
+}
+
+/* Add shadow to card (already also in internal for demo) */
+.card {
+  border: 1px solid #ddd;
+}
